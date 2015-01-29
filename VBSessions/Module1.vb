@@ -97,7 +97,7 @@
         position2 = InStrRev(resultMsg, "day")
         Console.WriteLine("Position of day is {0}", position2)
 
-        'using Instr to get the first occurence from right
+        'using Instr to get the second occurence from left
         position2 = InStr(position + 1, resultMsg, "day")
         Console.WriteLine("Position of session is {0} {1}", position, position2)
         Console.ReadLine()
