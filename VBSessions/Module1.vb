@@ -1,7 +1,7 @@
 ﻿Module Module1
 
     Sub Main()
-        Module3.DoThisAsWell()
+        Module4.MyCollectionSub()
         'What is a program?
         ' Set of instructions - Logic?
         '   Data and logic 
