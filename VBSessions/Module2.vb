@@ -8,6 +8,7 @@
 
     'Lifecycle of logic
     '   Declare a function /Sub
+    '   Implement (Body of the function)
     '   Call from other blocks
     '   Test
 

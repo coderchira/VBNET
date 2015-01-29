@@ -1,11 +1,12 @@
 ﻿Module Module1
 
     Sub Main()
+        Module3.DoThisAsWell()
         'What is a program?
         ' Set of instructions - Logic?
         '   Data and logic 
         ' Data <--> Logic
-        '   Varibles
+        '   Variables
         '       can change their value 
         '           Classified into 2 types:
         '               Native Types (Stack)
@@ -141,8 +142,18 @@
         myCollection.Add("Besly")
         myCollection.Add(2)
 
-        Console.WriteLine(myCollection.Item(1))
+        myCollection.Remove(2)
+
+        Console.WriteLine(CStr(myCollection.Item(1)))
         Console.ReadLine()
+
+        'Treat Object to be the parent of all types in .net
+        'Late binding
+        '   Flexible
+        '   slower
+        '   error prone
+        Dim collectItem As Object
+        collectItem = myCollection.Item(1).ToString()
 
         'Dispose the object variable
         myCollection = Nothing
