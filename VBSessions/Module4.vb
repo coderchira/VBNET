@@ -35,6 +35,7 @@
         ' add everything into collection 2
         ' and then use .Remove where item = your name
 
+        'this is valid
         'myCollection2.Add(myCollection1)
         
             For Each item In myCollection2

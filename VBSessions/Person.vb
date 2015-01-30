@@ -1,4 +1,6 @@
 ﻿Public Class Person
+    Implements IDelete
+
     'Class = Data + its relevant functions or vice versa
     ' Responsilbility
 
@@ -22,20 +24,20 @@
         Console.WriteLine("We are passing the location everytime when we new this object")
         Console.ReadLine()
     End Sub
-            'Other classes should not access my variables directly
-            'So let's write a couple of functions which can read these variables
-            'One function which can modify the variables
-            'Function getName() As String
-            '    Return name
-            'End Function
+    'Other classes should not access my variables directly
+    'So let's write a couple of functions which can read these variables
+    'One function which can modify the variables
+    'Function getName() As String
+    '    Return name
+    'End Function
 
-            'Sub setName(myName As String)
-            '    name = myName
-            'End Sub
+    'Sub setName(myName As String)
+    '    name = myName
+    'End Sub
 
 
-            'Readonly / Writeonly
-            'Private on Get or set
+    'Readonly / Writeonly
+    'Private on Get or set
 
     Public Property Name() As String
         Get
@@ -61,6 +63,7 @@
         Console.ReadLine()
     End Sub
 
-    
-
+    Public Sub Delete() Implements IDelete.Delete
+        'this is the implemenation of your interface
+    End Sub
 End Class

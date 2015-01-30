@@ -3,16 +3,17 @@
   <Class Name="VBSessions.Employee">
     <Position X="3.75" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAQCAAAAAAAAAAAAAgAAAAAAAEAAAAAAAAAAQAAAA=</HashCode>
+      <HashCode>AAAAQCAAAAAAAAAAAAAgAAAAAAAEIAAAAAAAAAQAAAA=</HashCode>
       <FileName>Employee.vb</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="VBSessions.Person">
-    <Position X="1.25" Y="0.75" Width="1.5" />
+    <Position X="1.25" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAIAAACIAAAAAgBAAAAAQCAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAIAAACIAAAAAgBAAAAAQCAAEAIAAAAAAAAAAAAAA=</HashCode>
       <FileName>Person.vb</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.221" />
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

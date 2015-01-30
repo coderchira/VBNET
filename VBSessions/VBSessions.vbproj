@@ -67,6 +67,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Employee.vb" />
+    <Compile Include="IDelete.vb" />
+    <Compile Include="Interface1.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="Module2.vb" />
     <Compile Include="Module3.vb" />
