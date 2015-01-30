@@ -93,9 +93,28 @@
     End Function
 
     Sub DoThisAsWell()
+        DoThis(True)
+
+        Dim count As Integer
+        count = DoThis(10)
 
         Dim rtr As Integer
         rtr = DoThis(10, 50.0, "ruchira")
     End Sub
 
+    'Different signatures to the function named DoThis
+    'Overloading
+    Function DoThis(flag As Integer) As Integer
+
+        Return 0
+    End Function
+
+    Function DoThis(name As String, weight As Single) As Integer
+
+        Return 0
+    End Function
+
+    Function DoThis(anotherflag As Boolean) As Boolean
+        Return True
+    End Function
 End Module
