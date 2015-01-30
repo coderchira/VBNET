@@ -3,14 +3,33 @@
     Sub Main()
         'Module4.MyCollectionSub()
 
-        Dim myPerson As New Person
-        'myPerson.setName("ruchira")
-        'Console.WriteLine(myPerson.getName())
-        myPerson.Name = "Ruchira"
-        Console.WriteLine(myPerson.Name())
+        'Dim myPerson As New Person
+        ''myPerson.setName("ruchira")
+        ''Console.WriteLine(myPerson.getName())
+        'myPerson.Name = "Ruchira"
+        'Console.WriteLine(myPerson.Name())
+        'Console.ReadLine()
+        'myPerson.Walk()
 
-        Console.ReadLine()
-        myPerson.Walk()
+        'Dim anotherPerson As Person ' handle of base class
+        'anotherPerson = New Person()
+        'implementation is the child class
+        'anotherPerson = New Employee 'this is valid 
+
+        'Dim pPerson As New Person
+        'pPerson.Walk()
+
+        Dim myEmployee As Employee
+        myEmployee = New Employee
+        'Here we can acccess the methods of base class
+        myEmployee.Walk()
+
+        'myEmployee = New Person 'this is not valid // illegal
+
+
+        'myEmployee.Name = "Besly"
+        'myEmployee.CompanyName = "Infosys"
+
 
         'What is a program?
         ' Set of instructions - Logic?

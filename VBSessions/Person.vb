@@ -8,7 +8,20 @@
     Private email As String
     Private birthdate As Date
     Private _name As String
+    Private location As String
 
+    'Constructors
+    Sub New()
+        'location = "Pune"
+        Console.WriteLine("Hi, This is Person class being newed")
+        Console.ReadLine()
+    End Sub
+
+    'overloaded constructor
+    Sub New(location As String)
+        Console.WriteLine("We are passing the location everytime when we new this object")
+        Console.ReadLine()
+    End Sub
             'Other classes should not access my variables directly
             'So let's write a couple of functions which can read these variables
             'One function which can modify the variables
@@ -23,6 +36,7 @@
 
             'Readonly / Writeonly
             'Private on Get or set
+
     Public Property Name() As String
         Get
             Return _name
@@ -41,7 +55,7 @@
         email = newEmail
     End Sub
 
-    Sub Walk()
+    Overridable Sub Walk()
         'Implementation goes here
         Console.WriteLine("Hey this is person walking")
         Console.ReadLine()

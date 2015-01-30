@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VBSessions.Employee">
+    <Position X="3.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQCAAAAAAAAAAAAAgAAAAAAAEAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Employee.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VBSessions.Person">
+    <Position X="1.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAACIAAAAAgBAAAAAQCAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Person.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
