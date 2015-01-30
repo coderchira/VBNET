@@ -1,0 +1,7 @@
+Private:Available only to code within the class -- for variables choose other specifiers carefully except protected
+Public:Available to code outside the class and to any projects that refrence the assembly
+Friend:Available only to code within the project / component
+Protected:Available only to classes that inherit from it
+
+If you understand all above very well then,
+Protected friend : explore more on internet :-)
