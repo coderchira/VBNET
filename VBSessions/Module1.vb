@@ -2,7 +2,7 @@
 
     Sub Main()
         'Module4.MyCollectionSub()
-
+        AddressCollection.MySub()
         'Dim myPerson As New Person
         ''myPerson.setName("ruchira")
         ''Console.WriteLine(myPerson.getName())
