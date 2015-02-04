@@ -46,23 +46,27 @@
 
         If Not cAlias Is Nothing Then
             For index = 1 To cAlias.Count
+                'instantiate the collection
                 thisAddress = New Collection
+                'add name to the new instance of thisAddress
                 thisAddress.Add(cAlias.Item(index))
                 If Not cEmails Is Nothing Then
                     For innerIndex = 1 To cEmails.Count
+                        'store the current email in a variable thisEmail
                         thisEmail = cEmails.Item(innerIndex)
                         'split the email at underscore _ and store in the array
                         emailStrings = thisEmail.Split(uscore)
                         For Each item In emailStrings
                             'Add only those items in thisaddress where emailitem = alias
                             If (item.ToLower() = cAlias.Item(index).ToLower()) Then
+                                'add email in thisAddress
                                 thisAddress.Add(cEmails.Item(innerIndex))
                             End If
                             'exit the loop when a match is found
                             Exit For
                         Next
                     Next
-                    'Now add this complete address in Address collection
+                    'Now add complete thisAddress in Address collection
                     cAddr.Add(thisAddress)
                 End If
             Next
